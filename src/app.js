@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://notes-save-application.vercel.app"
+    "https://glittering-profiterole-af6f4a.netlify.app"
   ]
 }));
 app.use(express.json());
