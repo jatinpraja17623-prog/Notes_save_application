@@ -4,7 +4,7 @@
 //  HOW IT WORKS: Every function calls your backend and returns data
 // ============================================================
 
-const BASE_URL = "notessaveapplication-production.up.railway.app";
+const BASE_URL = "https://notessaveapplication-production.up.railway.app/api";
 
 function authHeader() {
   const token = localStorage.getItem("token");
